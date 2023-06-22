@@ -1,0 +1,811 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Lyndon Marcelo | Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+		<style>
+			.responsive {
+				width: 100%;
+				height: auto;
+			}
+
+			video {
+				width: 100%;
+				height: auto;
+			}
+
+			.video-container video {
+				width: 40%;
+				height: auto;				
+			}
+
+
+
+			
+		</style>
+
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner animate fadeInLeft one">
+					<a href="#" class="image avatar"><img src="images/MarceloTN.jpg" alt="" /></a>
+					<h1><strong>LANCE LYNDON C. MARCELO</strong><br/></h1>
+					<h1>Computer Engineer<br/></h1>
+
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/llcmarcelo0713/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/LyndonMarcelo" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.facebook.com/IAmGhener/" class="icon brands fa-facebook"><span class="label">Dribbble</span></a></li>
+						<li><a onclick="copyEmail()" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					
+				</div>
+
+				
+			</header>
+		
+			
+			
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+
+						<header class="major">
+							<h2>About Myself</h2>
+						</header>
+						<p>Hi! I'm Lyndon and I'm an aspiring Software Developer from the Pamantasan ng Lungsod ng Maynila with a degree 
+							in Computer Engineering. Driven by a passion for creating and improving technology, and  
+							devoted to lifelong learning to stay up-to-date with current technological developments.<br><br>
+							
+							I continuously seek opportunities to contribute to dynamic projects and collaborate with talented 
+							professionals in the field of computer engineering with hopes of developing the 
+							community and gaining further knowledge.</p>
+						<!--
+						<ul class="actions">
+							<li><a href="https://www.facebook.com" class="button">Learn More</a></li>
+						</ul>
+						-->
+						
+					</section>
+
+				<!-- Two -->
+					<section>
+						<h2>Recent Projects and Works</h2>
+						<div data-aos="fade-left">
+							<center>
+							<video width="400" controls>
+								<source src="projectMedia/GabayVideoV2.mp4" type="video/mp4">
+							</video>
+							<h3>GABAY: Smart Walking Stick for Persons with Visual Impairment</h3></center>
+							<p>The Gabay Smart Walking Stick was a thesis project prototype made and presented during the final year of college 
+								with the help of the Philippine Blind Union. The project was done with the aim of using contemporary technology 
+								that can help lead persons with visual impairment on independent journeys and analyze their surroundings for any hazards.</p>
+
+							<p>The project made use of an Arduino microcontroller, an ESP32-CAM, Ultrasonic Sensors, Gyroscope and Accelerometer Sensor, several motors, 
+								and a mobile application. With these, the device is made capable of detecting nearby obstructions for the user and also sending emergency messages 
+								automatically in times of accidents. With the use of Python and MySQL, the system can also recognize particular obstacles seen by the camera which then 
+								lets the user know about it. The object detection model was made by training a YoloV5 model in Google Colab and datasets are made in Roboflow </p>
+						</div>
+
+						<div data-aos="fade-left">
+								<center>							
+									<video id="ARA3" width="400" controls>
+										<source src="projectMedia/ARAVid.mp4" type="video/mp4">
+									</video>
+
+									<img src="projectMedia/ARAcover.png" id="ARA1" width="100%" height="auto">
+									<img src="projectMedia/ARAdocu.png" id="ARA2" width="100%" height="auto">
+									
+
+									<button id="ARAbtn1" class="button small"></button>
+									<button id="ARAbtn2" class="button small"></button>
+									<button id="ARAbtn3" class="button small"></button>
+									
+							<h3>ARA: Augmented Reality Assistant</h3></center>
+
+							<p>ARA is a project made that combines Augmented Reality, Internet of Things, and Data Science into one system. 
+								With the use of the mobile application, users can connect to the local home network which allows them to control 
+								devices connected to the local network via an Augmented Reality interface. </p>
+
+							<p>The ARA project uses an Arduino board to control small devices and also get data from connected sensors. This 
+								microcontroller then communicates with a C++ program that acts as a way to access the MSSQL Database. The AR app 
+								developed from the Unity Development Platform using C# can then access the database to communicate with the microcontroller remotely.
+							</p>
+
+						</div>
+
+						<div data-aos="fade-left">
+							<center>							
+								<video id="SL5" width="400" controls>
+									<source src="projectMedia/SmartLightDesktop.mp4" type="video/mp4">
+								</video>
+
+								<img src="projectMedia/SmartLightCover.png" id="SL1" width="100%" height="auto">
+								<img src="projectMedia/SmartLightAbout.png" id="SL2" width="100%" height="auto">
+								<img src="projectMedia/SmartLight1.jpg" id="SL3" width="100%" height="auto">
+								<img src="projectMedia/SmartLight2.jpg" id="SL4" width="100%" height="auto">
+								
+
+								<button id="SLbtn1" class="button small"></button>
+								<button id="SLbtn2" class="button small"></button>
+								<button id="SLbtn3" class="button small"></button>
+								<button id="SLbtn4" class="button small"></button>
+								<button id="SLbtn5" class="button small"></button>
+								
+						<h3>SmartLight: Home Lighting Monitoring Web Application</h3></center>
+
+						<p>The SmartLight project is a collaborative effort which combines an Arduino microcontroller system 
+							with a web application. This microcontroller system is connected to the computer's MSSQL database 
+							and the web application displays the information stored in the database.</p> 
+							
+						<p>The lights are controlled by an Arduino using photoresistors designed to 
+							turn on when the area is dark and vice versa. The web application accessible is via desktop or mobile 
+							browsers can display an estimation on energy bill based on how long the lights are turned on.</p>
+
+						</div>
+
+						<div data-aos="fade-left">
+							<center>	
+								<div class="video-container">					
+									<video id="CA3" width="400" controls>
+										<source src="projectMedia/CanisVid.mp4" controls type="video/mp4">
+									</video>
+									<img src="projectMedia/CanisCover.png" id="CA1" width="40%" height="auto">
+									<img src="projectMedia/Canis1.png" id="CA2" width="40%" height="auto">
+								</div>	
+													
+								<br>
+								<button id="CAbtn1" class="button small"></button>
+								<button id="CAbtn2" class="button small"></button>
+								<button id="CAbtn3" class="button small"></button>
+								
+							<h3>Canis Familiaris: Dog Breed Detection Web Application</h3></center>
+
+							<p>Canis Familiaris is a web-based collaborative project made accessible via 
+								desktop and mobile browsers used to detect dog breeds from images input into 
+								the web application using TensorFlow JS. The TensorFlow model was trained using 
+								Python and TensorFlow.</p> 
+								
+							<p></p>
+
+						</div>
+
+						<div data-aos="fade-left">
+							<center>							
+								<video id="DS1" width="400" controls>
+									<source src="projectMedia/DrivingSimMain.mp4" type="video/mp4">
+								</video>
+
+								<video id="DS2" width="400" controls>
+									<source src="projectMedia/DrivingSimDemo.mp4" type="video/mp4">
+								</video>
+
+								
+								<button id="DSbtn1" class="button small"></button>
+								<button id="DSbtn2" class="button small"></button>
+								
+						<h3>Unity 3D Driving Simulator</h3></center>
+
+						<p>The Driving Simulator game was a personal game development project using C# 
+							with Unity 3D. I have always had an interest in driving cars which motivated 
+							myself to develop a game that aims to simulate driving cars from a first-person 
+							perspective.</p>
+
+						</div>
+
+						<div data-aos="fade-left">
+							<center>
+							<video width="400" controls>
+								<source src="projectMedia/PPVid.mp4" type="video/mp4">
+							</video>
+							<h3>Oil Price Prediction Data Science Project</h3></center>
+							<p>The Price Prediction project was done as an academic project tasked to apply data 
+								science into a system. The project was developed using C++/CLI in Visual Studio 2022
+								as a C++ desktop application that processes CSV data regarding Petrol Prices 
+								to create a prediction of how much the price of petrol will be in the following years, 
+								months, or weeks using Average and Regression statistics.</p>
+
+							<p></p>
+						</div>
+
+						<div data-aos="fade-left">
+							<center>
+							<video width="400" controls>
+								<source src="projectMedia/BINANCEVid.mp4" type="video/mp4">
+							</video>
+							<h3>Binance Market Position & Risk Calculator Java Application</h3></center>
+							<p>With my interest in crypto trading, the position & risk calculator was done as a personal 
+								project designed to assist myself with low-timeframe and fast-paced cryptocurrency 
+								trading by instantly calculating risks and position sizes while taking into account 
+								fees in using the Binance Crypto Trading Platform. The application was developed with 
+								Java using the NetBeans IDE.</p>
+
+							<p></p>
+						</div>
+
+						<div data-aos="fade-left">
+							<center>
+							<video width="400" controls>
+								<source src="projectMedia/EZRVid.mp4" type="video/mp4">
+							</video>
+							<h3>EZFX: MT4 Forex Lot Size & Risk Calculator </h3></center>
+							<p>The EZFX is another project inspired by my personal interest in trading. For low-timeframe 
+								traders, every second counts. Calculating the right lot size takes a lot into consideration 
+								and will also take a lot of time which can cause missed trading opportunities for the trader.</p>
+
+							<p>The EZFX is an Expert Advisor program for MetaTrader 4, or MT4, made using MQL4. This program is 
+								designed to be used in lower timeframe trading in MT4 to instantly calculate the right lot size 
+								based on the set stop-loss levels, amount willing to be risked, profit ratio, and spreads. With 
+								this, traders only need to set a stop-loss level and the amount willing to be risked, then the 
+								order can be instantly placed.</p>
+						</div>
+
+
+
+
+
+					</section>
+
+				<!--Skills-->
+
+					<section>
+
+						<h2>Technical Skills</h2>
+						<div class="row">
+							<div class="col-6 col-12-xsmall" data-aos="fade-left">
+								<h5>Developer Tools</h5>
+								<ul>
+									<li>Apache NetBeans</li>
+									<li>CodeBlocks</li>
+									<li>Jupyter Notebook</li>
+									<li>PyCharm</li>
+									<li>XAMPP</li>
+									<li>MySQL</li>
+									<li>MSSQL Server</li>
+									<li>Visual Studio Code</li>
+									<li>Visual Studio 2022</li>
+									<li>Unity Developer Platform</li>
+									<li>Notepad++</li>
+									<li>Sublime Text</li>
+									<li>Arduino IDE</li>
+									<li>GitHub</li>
+									
+								</ul>
+								
+							</div>
+							<div class="col-6 col-12-xsmall" data-aos="fade-left">
+								<h5>Office and Productivity Tools</h5>
+								<ul>
+									<li>MS Excel</li>
+									<li>MS Word</li>
+									<li>MS Powerpoint</li>
+									<li>Tinkercad</li>
+									<li>NI Multisim</li>
+									<li>Cisco Packet Tracer</li>
+									<li>Trello</li>
+									<li>Jira</li>
+									<li>AutoCAD</li>
+									<li>Adobe Photoshop</li>
+									<li>Wondershare Filmora</li>
+									
+								</ul>
+																
+							</div>
+
+							<div class="col-6 col-12-xsmall" data-aos="fade-left">
+								<h5>Programming Skills</h5>
+								<ul>
+									<li>Java</li>
+									<li>C++</li>
+									<li>C#</li>
+									<li>Python</li>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>MQL4</li>
+								</ul>
+																
+							</div>
+
+						</div>
+						
+					</section>
+
+				<!--Work Experience-->
+
+				<section>
+
+					<h2>Experiences</h2>
+					<div class="row">
+						<div data-aos="fade-left">
+							2023<br>
+							<p style="font-size: 25px;" ><b>Sentrify Technologies Corporation,</b> IoT Systems Developer Intern</p>
+							<ul>
+								<li>Technological Research and Development</li>
+								<li>Create smart devices and systems based on clients' requirements</li>
+								<li>Home and Industrial Automations</li>
+								<li>System Prototyping</li>
+							</ul>
+							<br>
+						</div>
+
+						<div data-aos="fade-left">
+							2019<br>
+							<p style="font-size: 25px;" ><b>TaskUs (LizardBear Tasking, Inc.),</b> Technical Support Representative / Teammate</p>
+							<ul>
+								<li>Troubleshoot customers' problems</li>
+								<li>Communicate and assist customers' in real-time chat sessions</li>
+							</ul>
+							<br>
+						</div>	
+
+					</div>
+					
+				</section>
+				
+				
+				<!--Educ BG-->
+
+				<section>
+
+					<h2>Educational Background</h2>
+					<div class="row">
+						<div data-aos="fade-left">
+							2019 - 2023<br>
+							<p style="font-size: 25px;" ><b>Pamantasan ng Lungsod ng Maynila,</b> Bachelor of Science in Computer Engineering</p>
+							<ul>
+								<li>2nd Year - 2nd Semester Dean's Lister | 2020-2021</li>
+								<li>3rd Year - 1st Semester Dean's Lister | 2021-2022</li>
+							</ul>
+							<br>
+						</div>
+
+						<div data-aos="fade-left">
+							2017 - 2019<br>
+							<p style="font-size: 25px;" ><b>Manile Central University,</b> Science, Technology, Engineering, and Mathematics Strand</p>
+							<ul>
+								<li>Grade 11 - With Honors | 2017-2018</li>
+								<li>GAD Research Award | 2018</li>
+								<li>Grade 12 - With Honors | 2018-2019</li>
+							</ul>
+							<br>
+						</div>
+
+						<div data-aos="fade-left">
+							2013 - 2017<br>
+							<p style="font-size: 25px;" ><b>St. Benedict School of Novaliches,</b> Junior High School</p>
+							<ul>
+								<li>Grade 10 - With High Honors | 2016-2017</li>
+								<li>Grade 9 - With Honors | 2015-2016</li>
+							</ul>
+						</div>
+						
+
+
+					</div>
+					
+				</section>
+
+
+
+				
+
+				<!-- Three -->
+					<section id="three">
+						<h2>Get In Touch</h2>
+						<p>I am always open for any opportunities! Send me a message if you want to work together or if you have any questions.</p>
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form action="https://formspree.io/f/xbjennjd" method="POST">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="Name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="Email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="Message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+									<br>
+
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
+
+								</form>
+								
+							</div>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										Marilao, Bulacan<br />
+										Philippines
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										+63 (915) 2380511
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a onclick="copyEmail()">llcmarcelo0713@gmail.com</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Four -->
+				<!--
+					<section id="four">
+						<h2>Elements</h2>
+
+						<section>
+							<h4>Text</h4>
+							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+							<hr />
+							<header>
+								<h4>Heading with a Subtitle</h4>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<header>
+								<h5>Heading with a Subtitle</h5>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<hr />
+							<h2>Heading Level 2</h2>
+							<h3>Heading Level 3</h3>
+							<h4>Heading Level 4</h4>
+							<h5>Heading Level 5</h5>
+							<h6>Heading Level 6</h6>
+							<hr />
+							<h5>Blockquote</h5>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+							<h5>Preformatted</h5>
+							<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+						</section>
+
+						<section>
+							<h4>Lists</h4>
+							<div class="row">
+								<div class="col-6 col-12-xsmall">
+									<h5>Unordered</h5>
+									<ul>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+									<h5>Alternate</h5>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<h5>Ordered</h5>
+									<ol>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ol>
+									<h5>Icons</h5>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+									</ul>
+								</div>
+							</div>
+							<h5>Actions</h5>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button primary small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary fit">Default</a></li>
+										<li><a href="#" class="button fit">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section>
+							<h4>Table</h4>
+							<h5>Default</h5>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<h5>Alternate</h5>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
+
+						<section>
+							<h4>Buttons</h4>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Primary</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button large">Large</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<ul class="actions fit">
+								<li><a href="#" class="button primary fit">Fit</a></li>
+								<li><a href="#" class="button fit">Fit</a></li>
+							</ul>
+							<ul class="actions fit small">
+								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+								<li><a href="#" class="button fit small">Fit + Small</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+							</ul>
+							<ul class="actions">
+								<li><span class="button primary disabled">Primary</span></li>
+								<li><span class="button disabled">Default</span></li>
+							</ul>
+						</section>
+
+						<section>
+							<h4>Form</h4>
+							<form method="post" action="#">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Category -</option>
+											<option value="1">Manufacturing</option>
+											<option value="1">Shipping</option>
+											<option value="1">Administration</option>
+											<option value="1">Human Resources</option>
+										</select>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">Low Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-normal" name="demo-priority">
+										<label for="demo-priority-normal">Normal Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">High Priority</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-copy" name="demo-copy">
+										<label for="demo-copy">Email me a copy of this message</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-human" name="demo-human" checked>
+										<label for="demo-human">I am a human and not a robot</label>
+									</div>
+									<div class="col-12">
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+
+						<section>
+							<h4>Image</h4>
+							<h5>Fit</h5>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+							<h5>Left &amp; Right</h5>
+							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						</section>
+
+					</section>
+				
+
+			</div>
+		-->
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<!--
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/llcmarcelo0713/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/LyndonMarcelo" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.facebook.com/IAmGhener/" class="icon brands fa-facebook"><span class="label">Dribbble</span></a></li>
+						<li><a onclick="copyEmail()" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					-->
+					<ul class="copyright">
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			<script>
+				function copyEmail() {
+				  				
+				  // Copy the text inside the text field
+				  navigator.clipboard.writeText("llcmarcelo0713@gmail.com");
+				  
+				  // Alert the copied text
+				  alert("Copied the email: " + "llcmarcelo0713@gmail.com");
+				}
+			</script>
+
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script>
+			AOS.init();
+			</script>
+
+	</body>
+</html>
