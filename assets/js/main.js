@@ -114,6 +114,22 @@
 
 			});
 
+			//GABAY==============================================
+
+			$('#GAB2').hide();
+
+			GABbtn1.addEventListener('click', () => {
+				$('#GAB1').show();
+				$('#GAB2').hide();
+				
+			})
+
+			GABbtn2.addEventListener('click', () => {
+				$('#GAB1').hide();
+				$('#GAB2').show();
+				
+			})
+
 
 			//ARA================================================
 
